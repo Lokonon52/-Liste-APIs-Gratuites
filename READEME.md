@@ -1,164 +1,168 @@
 # Voici une version structurée et enrichie de la liste des API gratuites que tu peux utiliser avec des scènes pratiques et liens de documentation :
 
 ---
+# 📚 Liste d'APIs Gratuites pour Développeurs
+
+---
 
 ## 🎬 1. Movie APIs
 
-- **OMDb API** : RESTful service pour données de films/séries (titre, résumé, affiche, note IMDb). **Gratuit**, pas de clé requise (limité au nombre d’appels journaliers) ([RapidAPI][1], [omdbapi.com][2]).
-  **Cas pratique** : afficher la fiche d’un film recherché par titre.
-- **TMDb API (The Movie DB)** : films, séries, acteurs, images, avec clé API gratuite ([The Movie Database (TMDB)][3], [Zuplo][4]).
-  **Cas pratique** : intégrer une galerie d’affiches populaires, recherche par genre.
+- **OMDb API** : [Site officiel](https://www.omdbapi.com/) · [RapidAPI](https://rapidapi.com/blog/api/omdb/)
+  - **Cas pratique** : afficher la fiche d’un film recherché par titre.
+
+- **TMDb API** : [Site officiel](https://www.themoviedb.org/documentation/api) · [Zuplo](https://zuplo.com/docs/api-directory/the-movie-db-api)
+  - **Cas pratique** : galerie d’affiches populaires, recherche par genre.
 
 ---
 
 ## 🗺️ 2. Mapbox
 
-- Fournit cartes interactives, géocodage, navigation, etc. Gratuit jusqu’à \~50 000 chargements de carte et géocodages par mois ([Zuplo][5], [help.stockist.co][6], [Relevant Software][7]).
-  **Cas pratique** : géolocaliser des adresses en saisie (autofill), afficher une carte de points d’intérêt.
+- **Mapbox** : [Documentation](https://docs.mapbox.com/api/) · [Zuplo](https://zuplo.com/docs/api-directory/mapbox)
+  - **Cas pratique** : géolocaliser des adresses, afficher une carte interactive.
 
 ---
 
 ## 📰 3. News APIs
 
-- Exemples via RapidAPI : News API gratuit (limité) ou accès à RSS.
-  **Cas pratique** : afficher dernières actualités tech dans un dashboard.
+- **News API** : [NewsAPI.org](https://newsapi.org/) · [Via RapidAPI](https://rapidapi.com/blog/news-apis/)
+  - **Cas pratique** : intégrer un flux d’actualités tech dans un dashboard.
 
 ---
 
-## 🔍 4. SERP API / Google Search API
+## 🔍 4. SERP / Google Search API
 
-- Google Custom Search JSON API : requête limitée gratuite (quotas journaliers).
-  **Cas pratique** : construire un mini moteur de recherche sur ton site.
+- **Google Custom Search** : [Documentation](https://developers.google.com/custom-search/v1/overview)
+  - **Cas pratique** : créer un moteur de recherche personnalisé.
 
 ---
 
 ## 📄 5. ILOVEPDF API
 
-- API de manipulation PDF (fusion, conversion…). Plan “Developer free” (limité aux usages légers).
-  **Cas pratique** : fusionner plusieurs PDF téléchargés côté client.
+- [ILovePDF API](https://developer.ilovepdf.com/docs/api-reference) : manipulation de fichiers PDF.
+  - **Cas pratique** : fusionner des fichiers PDF côté client.
 
 ---
 
 ## 🌤️ 6. Weather APIs
 
-- **Open-Meteo** : open-source, pas de clé, données météo actuelles et prévisions jusqu’à 7 jours, usage libre non commercial ([mapbox.com][8], [open-meteo.com][9]).
-- **OpenWeatherMap** : plan gratuit avec prévisions actuelles et journalières ([openweathermap.org][10]).
-  **Cas pratique** : afficher la météo locale sur une landing page ou widget.
+- **Open-Meteo** : [Site officiel](https://open-meteo.com/) · [Doc](https://open-meteo.com/en/docs)
+- **OpenWeatherMap** : [openweathermap.org](https://openweathermap.org/api)
+  - **Cas pratique** : widget météo local.
 
 ---
 
 ## 📚 7. Book APIs
 
-- **Google Books API** : recherche de livres, metadonnées, disponibilité e‑book, mode visualisation ([developers.google.com][11], [postman.com][12]).
-  **Cas pratique** : chercher un livre par ISBN ou auteur et afficher la couverture.
-- **Open Library Books API** : infos par ISBN/OLID, couverture, titre, auteur ([openlibrary.org][13]).
-  **Cas pratique** : créer un catalogue de livres à partir d’ISBN.
+- **Google Books API** : [Documentation](https://developers.google.com/books)
+- **Open Library API** : [openlibrary.org](https://openlibrary.org/developers/api)
+  - **Cas pratique** : rechercher un livre par ISBN ou auteur.
 
 ---
 
 ## 💬 8. Quotes APIs
 
-- **Quotable** : citation aléatoire, recherche en JSON, gratuit, open‑source ([publicapi.dev][14]).
-- **Quotes API (API Ninjas)** : jusqu’à 100 citations gratuites par mois, catégories disponibles ([api-ninjas.com][15]).
-- **ZenQuotes.io** : simple et sans inscription, citations motivations ([zenquotes.io][16]).
-  **Cas pratique** : générer une citation inspirante à chaque chargement d’une page.
+- [Quotable](https://github.com/lukePeavey/quotable)
+- [Quotes API (API Ninjas)](https://api-ninjas.com/api/quotes)
+- [ZenQuotes.io](https://zenquotes.io/)
+  - **Cas pratique** : générer une citation inspirante à chaque chargement.
 
 ---
 
 ## 🤣 9. Joke APIs
 
-- **Official Joke API** : blagues aléatoires, par catégorie, pas besoin d’authentification ([freepublicapis.com][17]).
-- **JokeAPI (sv443)** : pas de clé, supporte filtres, catégories, formats JSON/texte ([sv443.net][18]).
-- **icanhazdadjoke.com** : API simple pour blague aléatoire, pas de clé ([icanhazdadjoke.com][19]).
-  **Cas pratique** : afficher une blague 'du jour' ou par catégorie (ex: programmation).
+- [Official Joke API](https://github.com/15Dkatz/official_joke_api)
+- [JokeAPI (sv443)](https://v2.jokeapi.dev/)
+- [icanhazdadjoke](https://icanhazdadjoke.com/api)
+  - **Cas pratique** : blague du jour filtrée (programmation, général…).
 
 ---
 
 ## 🏞️ 10. National Park Service API
 
-- API officielle US NPS pour parcs nationaux, alertes, événements naturels ([weather.gov][20]).
-  **Cas pratique** : intégrer une carte des parcs US avec description et coordonnées GPS.
+- [nps.gov API](https://www.nps.gov/subjects/developer/api-documentation.htm)
+  - **Cas pratique** : carte des parcs US avec alertes.
 
 ---
 
 ## ⚽ 11. Sports APIs
 
-- **TheSportsDB** : données sportives (équipes, scores, événements), gratuit avec clé ([thesportsdb.com][21]).
-- **API‑Sports (Sportapi.io)** : plan gratuit avec 100 requêtes/jour par API (foot, basket, F1…) ([api-sports.io][22]).
-- **Sportmonks** : football, cricket, etc. plan free supportant certaines ligues ([sportmonks.com][23]).
-  **Cas pratique** : afficher les scores ou classements d’une équipe en direct.
+- [TheSportsDB](https://www.thesportsdb.com/api.php)
+- [API-Sports](https://api-sports.io/)
+- [SportMonks](https://www.sportmonks.com/)
+  - **Cas pratique** : afficher scores en direct.
 
 ---
 
-## 🛒 12. E‑commerce API
+## 🛒 12. E-commerce APIs
 
-- Solutions “free-tier” comme Shopify partenaires ou API de commerce fictif (ex. FakeStoreAPI). Utiles pour prototype.
-  **Cas pratique** : charger des produits, panier, commande de test.
+- [FakeStoreAPI](https://fakestoreapi.com/)
+  - **Cas pratique** : prototyper une boutique (produits, panier…).
 
 ---
 
 ## 🐶 13. Dog APIs
 
-- **The Dog API** : plus de 60 000 images de races de chiens, infos sur races, plan gratuit limite (\~10 000 requêtes/mois) ([thedogapi.com][24]).
-- **Dog CEO API** : API simple gratuite d’images de chiens par race (plus de 20 000 images) ([dog.ceo][25], [postman.com][26]).
-  **Cas pratique** : générer des images aléatoires de chien ou filtre par race.
+- [The Dog API](https://thedogapi.com/)
+- [Dog CEO API](https://dog.ceo/dog-api/)
+  - **Cas pratique** : générer des images aléatoires ou filtrées.
 
 ---
 
 ## 🐱 14. Cat APIs
 
-- **The Cat API** (TheCatAPI.com) : images aléatoires, filtres par race, plan gratuit avec clé ([developers.thecatapi.com][27]).
-  **Cas pratique** : galerie de chats aléatoires à rafraîchir.
+- [The Cat API](https://thecatapi.com/)
+  - **Cas pratique** : galerie de chats aléatoires ou par race.
 
 ---
 
 ## 📖 15. Dictionary APIs
 
-- Solutions gratuites telles que **DictionaryAPI.dev** ou Wordnik pour définitions, synonymes, prononciations.
-  **Cas pratique** : intégrer un mini dictionnaire dans une app d’apprentissage.
+- [DictionaryAPI.dev](https://dictionaryapi.dev/)
+- [Wordnik](https://developer.wordnik.com/)
+  - **Cas pratique** : mini dictionnaire dans une app éducative.
 
 ---
 
 ## 🍽️ 16. Meals APIs
 
-- Apis comme **TheMealDB** (cocktails & recettes). Contenu ouvert, recherche filtrée (ingrédients, catégories).
-  **Cas pratique** : affichage de recettes populaires ou filtrage par ingrédient.
+- [TheMealDB](https://www.themealdb.com/api.php)
+  - **Cas pratique** : explorer recettes, cocktails, par ingrédients.
 
 ---
 
 ## 🎥 17. YouTube API
 
-- **YouTube Data API v3** : récupérer métadonnées vidéos, chaînes, playlists. Plan gratuit avec quotas journaliers ([youtube.com][28]).
-  **Cas pratique** : afficher les dernières vidéos d’une chaîne ou créer un lecteur intégré avec titre/vidéo.
+- [YouTube Data API v3](https://developers.google.com/youtube/v3)
+  - **Cas pratique** : intégrer les vidéos d’une chaîne ou playlists.
 
 ---
 
 ## 🔎 18. Google Search API
 
-- **Google Custom Search JSON API** : moteur recherche personnalisée, retour structuré JSON. Quota gratuit (\~100 requêtes/jour).
-  **Cas pratique** : proposer des résultats web dans une interface stylisée.
+- Voir section 4 — Google Custom Search API
 
 ---
 
 ## 🖼️ 19. Gallery APIs
 
-- APIs de plateformes comme Unsplash API (photos) gratuites pour usage non-commercial avec clé.
-  **Cas pratique** : intégration d’une galerie d’images libres de droits dans un site.
+- [Unsplash API](https://unsplash.com/developers)
+  - **Cas pratique** : galerie d’images libres de droits.
 
 ---
 
-## 💡 20. GIPHY SDK API
+## 💡 20. GIPHY SDK/API
 
-- Permet recherche et intégration de GIF animés, plan libre limité, nécessite une clé API de GIPHY ([investopedia.com][29]).
-  **Cas pratique** : rechercher et afficher des GIFs selon un mot‑clé ou émotion dans une app de chat.
+- [GIPHY Developers](https://developers.giphy.com/)
+  - **Cas pratique** : rechercher et intégrer des GIFs dans un chat ou une app.
 
 ---
 
 ## 🌍 21. REST Countries API
 
-- **restcountries.com** : données sur pays (capitales, drapeaux, population), pas de clé nécessaire, usage libre.
-  **Cas pratique** : remplir une liste déroulante de pays avec leurs drapeaux et infos dans une app de formulaire.
+- [restcountries.com](https://restcountries.com/)
+  - **Cas pratique** : liste déroulante avec pays, drapeaux et infos.
 
+---
 
 
 ## 🔐 22. **ReqRes**
