@@ -100,6 +100,33 @@
 
 ---
 
+
+### 🚀 Espace & Technologie
+
+51. **[SpaceX API](https://docs.spacexdata.com/)** - Données des lancements  
+   - Documentation officielle : [api.spacexdata.com](https://docs.spacexdata.com/)
+   - Exemple de données : [Prochain lancement](https://api.spacexdata.com/v5/launches/next)
+
+52. **[NASA Open APIs](https://api.nasa.gov/)** - Données spatiales  
+   - Catalogue complet : [api.nasa.gov](https://api.nasa.gov/)
+   - Mars Rover Photos : [api.nasa.gov/mars-photos](https://api.nasa.gov/mars-photos/api/v1/rovers/perseverance/latest_photos)
+   - Image du jour (APOD) : [apod.nasa.gov](https://apod.nasa.gov/apod/astropix.html)
+
+53. **[N2YO API](https://www.n2yo.com/api/)** - Tracker ISS & satellites  
+   - Documentation : [n2yo.com/api](https://www.n2yo.com/api/)
+   - Position ISS en direct : [n2yo.com/iss](https://www.n2yo.com/?s=25544)
+
+---
+
+### 📱 Mobile & Apps
+
+54. **[App Store/Play Store APIs](https://rapidapi.com/hub)** - Statistiques apps  
+   - Via RapidAPI : [rapidapi.com/app-store-apis](https://rapidapi.com/hub?category=App%20Store)
+   - Exemple : [App Store Rankings API](https://rapidapi.com/ytdlfree/api/app-store8/)
+
+55. **[Spotify Web API](https://developer.spotify.com/documentation/web-api)** - Intégration musicale  
+   - Documentation : [developer.spotify.com](https://developer.spotify.com/documentation/web-api)
+   - Console de test : [Web API Console](https://developer.spotify.com/console/)
 ### 📱 Mobile & Apps
 
 54. \[App Store / Play Store APIs via RapidAPI] – Statistiques apps & charts
@@ -114,7 +141,6 @@
 
 ---
 
-Tu peux copier ce format Markdown directement dans ton README ou tout autre document. Besoin que je génère une version HTML ou PDF à partir de ceci ?
 
 [1]: https://www.tvmaze.com/api?utm_source=chatgpt.com "TV API | TVmaze - Add TV information to your website or app."
 [2]: https://rawg.io/apidocs?utm_source=chatgpt.com "Explore RAWG Video Games Database API"
