@@ -1,4 +1,4 @@
-Voici ta liste mise à jour avec **les liens directs** devant chaque API, formatée pour que tu puisses facilement copier‑coller dans ton `README.md` ou tout autre document :
+# Voici ta liste mise à jour avec **les liens directs** devant chaque API, 
 
 ---
 
