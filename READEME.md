@@ -1,4 +1,3 @@
-# Voici une version structurée et enrichie de la liste des API gratuites que tu peux utiliser avec des scènes pratiques et liens de documentation :
 
 ---
 # 📚 Liste d'APIs Gratuites pour Développeurs
